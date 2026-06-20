@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QWidget" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Вход</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="font">
+      <font><pointsize>16</pointsize><bold>true</bold></font>
+     </property>
+     <property name="text">
+      <string>Авторизация</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="loginLabel">
+     <property name="text"><string>Логин:</string></property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="loginEdit"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="passwordLabel">
+     <property name="text"><string>Пароль:</string></property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="passwordEdit"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="loginButton">
+     <property name="text"><string>Войти</string></property>
+     <property name="font">
+      <font><bold>true</bold></font>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>
